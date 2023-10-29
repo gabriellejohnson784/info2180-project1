@@ -24,8 +24,9 @@ nav ul {
     padding: 0;
 }
 
-nav link {
-    margin-right: 10px;
+nav li {
+    display: inline;
+    margin-right: 20px;
 }
 
 .overview-hero.container {
@@ -35,7 +36,7 @@ nav link {
    
 }
 
-.overview-hero-image image {
+.overview-hero-image img {
     max-width: 100px;
     margin-right: 20px
 }
@@ -62,7 +63,7 @@ nav link {
 
 .article-body {
     flex: 1;
-    padding-left: 10px;
+    padding-left: 30px;
 }
 
 .newsletter {
@@ -86,15 +87,13 @@ nav link {
     margin-bottom: 10px; 
 }
 
-.stories article image {
-    max-width: 100px;
-    max-height: 100px; 
+.stories article img {
     margin-right: 30px; 
 }
 
 .stories article .article-body {
     flex: 1; 
-    padding-left: 20px;
+    padding-left: 30px;
 }
 
 .stories article .article-body h3 {
@@ -104,6 +103,96 @@ nav link {
 section {
     margin-bottom: 30px;
 }
+
+header {
+    background-color: white;
+    font-size: 18px;
+}
+
+header nav li {
+    color: #6b7280;
+}
+
+header nav li:hover {
+    color: #5A67D8;
+}
+
+.overview-hero {
+    background-color: #E2E8F0;
+}
+
+.learn-about h2 {
+    font-size: 24px;
+    color: #48BB78;
+}
+
+.cards .card {
+    border: 2px solid #E2E8F0;
+    border-radius: 5px;
+    box-shadow: 1px 1px #000000;
+}
+
+.cards .card h3 {
+    color: #48BB78;
+    font-size: 21px;
+}
+
+.testing {
+    background-color: #4A5568;
+    color: white;
+}
+
+.testing .btn {
+    background-color: #48BB78;
+    border-radius: 5px;
+}
+
+.stories h2{
+    color: #5A67D8;
+}
+
+.stories li {
+    color: #5A67D8;
+}
+
+.stories article h3 {
+    font-size: 18px;
+}
+
+   
+.stories img {
+    border-radius: 50px;
+}
+
+.newsletter {
+    background-color: #48BB78;
+    color: white;
+}
+
+.newsletter .btn {
+    background-color: #5A67D8;
+}
+
+.footer{
+    background-color: #4A5568;
+    color: white;
+}
+
+section {
+    padding: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
