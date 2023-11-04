@@ -1,23 +1,19 @@
 /* Add your CSS to this file */
+
+/*LANDING PAGE LAYOUT GUIDE*/
 body {
     margin: 0;
     font-size: 18px;
     font-family: -apple-system,BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
 }
 
-footer{
-    background-color: #4A5568;
-    color: white;
-}
 
 .container {
 
     margin: 0 auto;
     max-width: 960px;
     width: 100%;
-    /*display:inline-flex;
-    justify-content: space-between;
-    align-items: center;*/
+
 }
 
 header {
@@ -63,7 +59,6 @@ nav li {
 }
 
 .overview-hero{
-    background-color: #E2E8F0;
     height: 300px;
     display: flex;
     align-items: center;
@@ -78,7 +73,6 @@ nav li {
 
 .overview-hero-image{
     float: left;
-    /*margin: 0 150px 0 50px;*/
 }
 
 .overview-hero-image img {
@@ -88,23 +82,9 @@ nav li {
 
 
 .learn-about {
-    /*text-align: left;
-    display: flex;
-    flex-direction: column; 
-    align-items: flex-start
-    padding: 50px;*/
     float: none;
 }
 
-.learn-about h2 {
-    /*text-align: center; 
-    margin-bottom: 500px;
-    margin-top: 0;
-    margin: 0;
-    order: -1;*/
-    font-size: 24px;
-    color: #48BB78;
-}
 
 .cards {
     display: grid;
@@ -119,8 +99,6 @@ nav li {
 .btn{
     padding: 10px 20px ;
 }
-
-
 
 .stories article {
     display: flex;
@@ -173,6 +151,8 @@ section {
     margin-bottom: 30px;
 }
 
+/*COLOURS AND FONT*/
+
 header {
     background-color: white;
     font-size: 18px;
@@ -185,6 +165,10 @@ header nav li:hover {
     color: #5A67D8;
 }
 
+.learn-about h2 {
+    font-size: 24px;
+    color: #48BB78;
+}
 
 .overview-hero {
     background-color: #E2E8F0;
@@ -221,7 +205,7 @@ header nav li:hover {
 .testing-desciption {
     flex: 1;
     white-space: normal;
-    max-width: 50%; /* Limit the maximum width of the description to avoid it extending too much */
+    max-width: 50%; 
 
 }
 
@@ -229,16 +213,12 @@ header nav li:hover {
     flex-basis: auto;
     margin-top: 0px;
     margin-bottom: 50px;
-    /*margin-left: auto;*/
     text-align: right;
-    /*display: flex;
-    align-items: center;*/
 }
 
 .cta a.btn {
     background-color: #48BB78;
     border-radius: 5px;
-    /*margin-top: 80px;*/
     margin-left: 80px;
     display:flex;
 }
@@ -270,11 +250,11 @@ header nav li:hover {
     margin-left: 50px;
     height: 50px;
    
-
 }
 
-section {
-    padding: 40px;
+footer{
+    background-color: #4A5568;
+    color: white;
 }
 
 .form-group input[type="email"] {
@@ -283,6 +263,12 @@ section {
     font-size: 16px;
     
 }
+/*PADDING*/
+section {
+    padding: 40px;
+}
+
+
 
 
 
