@@ -167,11 +167,13 @@ header {
     background-color: white;
     font-size: 18px;
 }
-header nav li {
+
+header nav li a {
     color: #6b7280;
+    text-decoration: none;
 }
 
-header nav li:hover {
+header nav li a:hover {
     color: #5A67D8;
 }
 
